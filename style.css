@@ -114,9 +114,11 @@ nav a.active, nav a:hover{
 
 .photos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     padding: 2rem 4rem;
+    justify-content: space-evenly;
 }
 
 .photos img{
@@ -134,4 +136,56 @@ nav a.active, nav a:hover{
 .social img{
     height: 35px;
     width: 35px;
+}
+.gallery-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+.fd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+.des-title{
+    font-size: 22px;
+}
+.des-content{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.des-content img{
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.review{
+    height: 40px;
+    width: 80px;
+}
+.box-end{
+    display: flex;
+    margin-top: 30px;
+    gap: 75px;
+}
+
+.box{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s ease;
+    padding: 10px;
+}
+
+#featured-box{
+     transform: scale(1.05);
 }
