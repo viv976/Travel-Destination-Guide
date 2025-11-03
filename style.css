@@ -31,6 +31,7 @@ body{
 }
 
 .quote-btn{
+    font-size: 18px;
     background: #36b37e;
     color: white;
     padding: 0.5rem 1rem;
@@ -48,6 +49,7 @@ nav{
 }
 
 nav ul{
+    font-size: 20px;
     list-style: none;
     display: flex;
     gap: 2rem;
@@ -60,7 +62,9 @@ nav a{
 }
 
 nav a.active, nav a:hover{
-    border-bottom: 2px solid #36b37e
+    border-bottom: 2px solid #36b37e;
+    cursor: pointer;
+    color: #36b37e;
 }
 
 .social a{
@@ -134,9 +138,10 @@ nav a.active, nav a:hover{
 }
 
 .social img{
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
+
 .gallery-title{
     display: flex;
     justify-content: center;
@@ -186,6 +191,34 @@ nav a.active, nav a:hover{
     padding: 10px;
 }
 
-#featured-box{
-     transform: scale(1.05);
+.box1{
+    transition: 0.3s ease;
+}
+.box1:hover{
+    transform: scale(1.05);
+}
+
+.box2{
+    transition: 0.3s ease;
+}
+.box2:hover{
+    transform: scale(1.05);
+}
+
+.box3{
+    transition: 0.3s ease;
+}
+.box3:hover{
+    transform: scale(1.05);
+}
+
+.box4{
+    transition: 0.3s ease;
+}
+.box4:hover{
+    transform: scale(1.05);
+}
+
+.cta-btn:hover{
+    background-color: #36b37e;
 }
