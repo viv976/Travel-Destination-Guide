@@ -157,10 +157,7 @@ nav a.active, nav a:hover{
     transform: scale(1.05);
 }
 
-.social img{
-    height: 30px;
-    width: 30px;
-}
+
 
 .gallery-title{
     display: flex;
@@ -169,6 +166,11 @@ nav a.active, nav a:hover{
     margin: 2rem 0;
     font-size: 3rem;
 }
+
+.featured{
+    padding: 4rem 2rem;
+}
+
 .fd{
     display: flex;
     justify-content: center;
@@ -247,7 +249,7 @@ nav a.active, nav a:hover{
     padding: 2rem 0;
     height: 600px;
     width: 100%;
-    background-image: url('Group\ 237.png');
+    background-image: url('images/image1.png');
     background-size: cover;
     background-position: center;
 }
@@ -340,7 +342,7 @@ nav a.active, nav a:hover{
     cursor: pointer;
 }
 #about-us{
-    background-image: url('Background.png');
+    background-image: url('images/image13.png');
     background-size: cover;
     background-position: center;
     /* margin-top: 10px; */
