@@ -20,21 +20,18 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#" class="front">Home</a></li>
-            <li><a href="#">Destinations</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#content" class="front">Home</a></li>
+            <li><a href="#featured">Destinations</a></li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
-        <div class="social">
-            <a href="#"><img src="Adobe Express - file (4).png" alt=""></a>
-            <a href="#"><img src="Adobe Express - file (1).png" alt=""></a>
-            <a href="#"><img src="Adobe Express - file (2).png" alt=""></a>
-            <a href="#"><img src="Adobe Express - file.png" alt=""></a>
-        </div>
+
+        <button class="sign-up-btn"><a href="#signup-btn">Sign Up</a></button>
     </nav>
    </header>
    <section class="main">
-    <div class="content">
+    <div class="content" id="content">
         <div class="main-content">
             <p>TEAM OF PROFFESIONAL TRAVEL EXPERTS</p>
             <h1>Trust <span>Our Experience</span></h1>
@@ -42,7 +39,7 @@
         </div>
     </div>
    </section>
-   <section class="featured">
+   <section class="featured" id="featured">
     <h1 class="fd">Featured Destinations</h1>
     <div class="box" id="featured-box">
         <div class="box1">
@@ -94,6 +91,18 @@
             </div>
             <p style="margin-left: 162px;color: gray;font-size: 15px;">Per Person</p>
         </div>
+        <div class="box4">
+            <img src="Rectangle 129 (3).png" alt="">
+            <p class="des-title">Alaska: Magic of London <br>Tour with Afternoon Tea</p>
+            <p class="des-content"><img src="Vector.png" alt="">Duration 4-5 hours</p> 
+            <p class="des-content"><img src="Vector (1).png" alt="">Transport Facility</p>
+            <p class="des-content"><img src="Vector (2).png" alt="">Family Plan</p>
+            <div class="box-end">
+                <img class="review" src="Group 230.png" alt="">
+                <p style="color: #36b37e; font-size: 30px">$35.00</p>
+            </div>
+            <p style="margin-left: 162px;color: gray;font-size: 15px;">Per Person</p>
+        </div>
         </div>
     </div>
     <section>
@@ -108,13 +117,32 @@
                     <button class="downloadandroid"><img src="android.png" alt="">Download for Android</button>
                 </div>
             </div>
-            
-            
         </div>
     </section>
    </section>
-   <h1 class="gallery-title">Gallery</h1>
-   <section class="photos">
+   <section id="about-us">
+    <div class="about">
+        <h2>ABOUT US</h2>
+        <p>Beyond Miles
+At Beyond Miles, we redefine the way you explore the world. We are a trusted travel destination guide committed to helping modern travelers discover authentic experiences, breathtaking destinations, and meaningful journeys. With a blend of expert insights, curated recommendations, and local perspectives, Beyond Miles ensures that every trip is more than just a visit — it’s a connection. Whether you’re planning your next getaway or seeking inspiration for your travel bucket list, we take you beyond the ordinary, beyond expectations — Beyond Miles.</p>
+    </div>
+    <div class="signup-btn" id="signup-btn">
+        <h1>Sign Up</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" minlength="3" placeholder="Enter your name" required><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" minlength="8" placeholder="Enter your password" required><br>
+            <button type="submit" class="submit-btn">Sign up</button>
+            <p>Already have an account? Login here.</p>
+        </form>
+    </div>
+
+   </section>
+   <h1 class="gallery-title" id="gallery">Gallery</h1>
+   <section class="photos" id="gallery">
     <div class="img-box"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt=""></div>
     <div class="img-box"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt=""></div>
     <div class="img-box"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt=""></div>
@@ -124,5 +152,62 @@
     <div class="img-box"><img src="https://plus.unsplash.com/premium_photo-1697730113048-1903ddc36c58?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974" alt=""></div>
     <div class="img-box"><img src="https://plus.unsplash.com/premium_photo-1692976236758-817620ab62ba?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2076" alt=""></div>
    </section>
+   <footer id="contact">
+        <form class="footer">
+            <div id="language-section" class="footer-section">
+                <h3>Language</h3>
+                <select name="language" id="language">
+                    <option value="en">English</option>
+                    <option value="hin">Hindi</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="ge">German</option>
+                    <option value="jap">Japanese</option>
+                </select>
+            </div>
+            <div id="currency-section" class="footer-section">
+                <h3>Currency</h3>
+                <select name="currency" id="currency">
+                    <option value="usd">U.S. Dollar</option>
+                    <option value="rup">Indian Rupee</option>
+                    <option value="eur">Euro</option>
+                    <option value="gbp">British Pound</option>
+                    <option value="yen">Japanese Yen</option>
+
+                </select>
+            </div>
+        </form>
+        <div class="footer-section">
+            <ul>
+                <li><h4>Company</h4></li>
+                <li>About Us</li>
+                <li>Press Room</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><h4>Help</h4></li>
+                <li>Contact Us</li>
+                <li>FAQs</li>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Sitemap</li>
+            </ul>
+        </div>
+        <div class="payment">
+            <p>Payment methods possible</p>
+            <img src="Group 408.png" alt="">
+            <img src="Group 409 (1).png" alt="">
+            <p>Company</p>
+            <p>Become a Tour Guide for us</p>
+        </div>
+   </footer>
+   <footer class="footer2">
+    <p>Copyright 2025 Tour Guide. All Rights Reserved</p>
+    <img src="Group 91.png" alt="">
+
+
+   </footer>
 </body>
 </html>
